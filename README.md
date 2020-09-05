@@ -12,3 +12,5 @@
 
 https://hikari39.github.io/index.html
 にアクセスすることで表示することができます
+
+https://HIKARI39.github.io/fittingroom_of_love.html
