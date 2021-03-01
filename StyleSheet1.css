@@ -2,7 +2,9 @@
 {
 
     h1 {
+        div{
         font-size: 20px,
             color: blue;
+        }
     }
 }
