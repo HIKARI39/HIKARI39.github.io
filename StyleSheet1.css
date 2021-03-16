@@ -1,6 +1,6 @@
 ﻿@charset "utf-8";
 body{
-    background-color: #fffeee;
+    background-color: antiquewhite;
 }
 html{
     font-size: 100%;
@@ -20,4 +20,43 @@ p{
     line-height: 1.7;
     color: rebeccapurple;
     background-color: darkorange;
+    width: 50%;
+    height: 40%;
+}
+
+h3{
+    font-family: 'Orbitron', sans-serif;
+    color: crimson;
+    background-color: black;
+}
+
+section{
+    background-color: darkolivegreen;
+    font-size: 50%;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 50px;
+    width: 600px;
+    height: 200px;
+    border-bottom:5px dotted red;
+    margin-bottom: 50px;
+}
+
+article{
+    background-color: darkcyan;
+    font-size: 50%;
+    border-color: black red white blue;
+    border-width: medium;
+    border-style: solid;
+    width: 50%;
+}
+ul{
+    list-style-position: outside;
+    background-color: blueviolet
+}
+
+ol{
+    list-style-type: hiragana;
+    background-color: blueviolet;
+    list-style-position: inside;
 }
