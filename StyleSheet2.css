@@ -1,0 +1,18 @@
+@charset "utf-8";
+/*2ページ目のスタイルシート*/
+
+div{
+
+}
+
+.item{
+    background-color: coral;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
