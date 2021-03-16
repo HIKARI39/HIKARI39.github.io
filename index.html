@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>HIKARIのがらくた箱</title>
         <meta name="description" content="日頃の開発の記録帳だよ">
+        <link rel="stylesheet" href="StyleSheet1.css">
     </head>
 
     <body>
@@ -83,16 +84,47 @@
         
         <p>記述欄</p>
         <textarea name="message" placeholder="200字以上がおすすめ"></textarea>
-
-
-
-
         <input type="submit" value="送信する">
 
+        <p>フォーム文字のラベル付け</p>
+        <input type="checkbox" name="travel" value="日本国内" id="japan">
+        <label for="japan">日本国内</label>
+
+        <input type="checkbox" name="travel" value="ヨーロッパ" id="europe">
+        <label for="europe">ヨーロッパ</label>
+
+        <input type="checkbox" name="travel" value="アジア" id="asia">
+        <label for="asia">アジア</label>
 
 
+        <section>
+            <h1>セクション分け</h1>
+            <p>どうやらsecrtion_1というのはつかえないみたい</p>
+        </section>
 
+        <article>
+            <h2>articleという名前で作成</h2>
+            <p>よくみるレイアウト構成</p>
+        </article>
 
+        <header>
+            <h1>ページタイトルとか</h1>
+            <p>webのへっだーとは違うヘッダ</p>
+            
+            <nav>
+                <ul>
+                    <li><a href="#">トップに戻る</a></li>
+                    <li><a href="#">にこめ</a></li>
+                    <li><a href="#">さんこ</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <footer>
+            <p>ページ下部に表示するためのフッター</p>
+            <a href="#">linkをはる</a>
+            <p>copyright 2021 HIKARI</p>
+        </footer>
     </body>
 </html>
 
